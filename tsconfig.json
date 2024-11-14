@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",              // Use ES6 or later
+    "module": "commonjs",          // CommonJS is often used for Node.js projects
+    "strict": true,                // Enable strict type checking
+    "esModuleInterop": true,       // Allow default imports from commonjs modules
+    "outDir": "./dist",            // Output compiled JavaScript files to /dist
+    "rootDir": "./src"             // Set source folder for TypeScript files
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
